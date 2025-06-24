@@ -181,7 +181,9 @@ local RECORD_KEY  = 157  -- [1]
 local STOP_KEY    = 158  -- [2]
 local PHOTO_KEY   = 160  -- [3]
 -- Put your discord Webhook here.
-local DISCORD_WEBHOOK = 'https://discordapp.com/api/webhooks/1385799687168200805/JV0ZTTMRzca3EPLICdeivv7VwBB_l1apNXRYhf2jqDB1lxUYkTXdu-gqZjFecR8AnQLR'
+  -- DO NOT INPUT DISCORD WEBHOOK.
+  -- NOT SAFE TO USE
+-- local DISCORD_WEBHOOK = 'https://discordapp.com/api/webhooks/1385799687168200805/JV0ZTTMRzca3EPLICdeivv7VwBB_l1apNXRYhf2jqDB1lxUYkTXdu-gqZjFecR8AnQLR'
 function DrawText3D(x, y, z, text)
   SetTextScale(0.35, 0.35)
   SetTextFont(4)
